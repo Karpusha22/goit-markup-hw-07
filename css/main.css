@@ -866,6 +866,7 @@ body {
 .form__checkbox {
   margin-top: 20px;
   font-size: 14px;
+  color: #757575;
 }
 
 .form-field .form-svg input,
