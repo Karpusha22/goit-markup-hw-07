@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@100;400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
     <title>Студия</title>
 
@@ -27,9 +27,9 @@
                 <a class="logo" href="./index.html">
                     <span class="logoblue">Web</span>Studio</a>
                 <ul class="nav">
-                    <li class="nav__link"><a class="currentlink" href="">Студия</a></li>
-                    <li class="nav__link"><a class="link" href="./portfolio.html">Портфолио</a></li>
-                    <li class="nav__link"><a class="link" href="">Контакты</a></li>
+                    <li class="nav__item"><a class="nav__link--active" href="./index.html">Студия</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="contact-list">
@@ -374,9 +374,9 @@
                 <a class="footer__logo" href="./index.html">
                     <span class="footer__logo--blue">Web</span>Studio</a>
                 <address class="footer__address">г. Киев, пр-т Леси Украинки, 26</address>
-                <ul class="footer__contacts">
-                    <li class="footer__item"><a class="link" href="mailto:info@example.com">info@example.com</a></li>
-                    <li class="footer__item"><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <ul class="ftr__contacts">
+                    <li class="ftr__item"><a class="ftr__link" href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="ftr__item"><a class="ftr__link" href="tel:+380991111111">+38 099 111 11 11</a></li>
                 </ul>
             </div>
             <div class="footer__social">
@@ -417,7 +417,7 @@
                 <p class="subscribe__title">Подпишитесь на рассылку</p>
                 <div class="subscribe">
                     <label for="email" class="subscribe-email visually-hidden">Email</label>
-                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <input class="subscribe__input" type="email" name="email" id="email" placeholder="E-mail">
 
                     <button data-modal-open class="subscribe-button" type="submit">Подписаться
                         <svg width="24px" height="24px" class="subscribe-icon">
